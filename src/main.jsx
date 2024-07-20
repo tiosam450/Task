@@ -10,8 +10,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <>
     <ToastContainer autoClose={2500} hideProgressBar={true}/>
     
-    <HashRouter>
+    <BrowserRouter>
       <Rotas />
-    </HashRouter>
+    </BrowserRouter>
   </>
 )
