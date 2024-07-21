@@ -7,14 +7,12 @@ import Private from './Private'
 
 const Rotas = () => {
   return (
-    <BrowserRouter basename='/task'>
       <Routes>
-        <Route path='/task' element={<Home />} />
+        <Route path='/' element={<Home />} />
         <Route path='cadastro' element={<Cadastro />} />
         <Route path='tarefas' element={<Private><Tarefas /></Private>} />
 
       </Routes>
-    </BrowserRouter>
   )
 }
 
